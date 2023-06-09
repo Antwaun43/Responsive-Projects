@@ -1,0 +1,231 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo_2 {
+    color: black;
+    font-weight: bold;
+    display: inline-block
+    
+}
+.guide {
+    display: flex;
+    margin-left: 50%;
+}
+
+h4, .nav {
+    color: black;
+    font-size: 80%;
+    display: flex;
+    padding: 20px 60px;
+    align-items: center;
+}
+
+.line {
+    color: black;
+    border-top: 1px solid black;
+    height: 2rem;
+}
+
+.panel_one {
+    margin: 3.125rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.vines {
+    overflow: auto;
+    margin: -2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.vines_2 {
+    height: auto;
+    width: 50%;
+}
+
+.fresh {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    flex-direction: column;
+    background-color: #00754a;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
+.fresh_picks {
+    text-align: center;
+    color: white;
+    background-color:  #00754a;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section_1 {
+    padding: 20px;
+    width: auto;
+    background-color:  #00754a;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.panel_two {
+    margin: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.vinyard {
+    overflow: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.vinyard_2 {
+    height: auto;
+    width: 50%;
+}
+
+.best {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(85, 43, 184);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
+.best_seller {
+    text-align: center;
+    color: white;
+    background-color:  rgb(85, 43, 184);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section_2 {
+    padding: 20px;
+    width: auto;
+    background-color: rgb(85, 43, 184);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+.learn_more {
+    color: white;
+    background-color: black;
+    display: flex;
+    /* positions button in middle */
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+    bottom: 30px;
+    right: 45%;
+    max-width: 20%;
+    height: auto;
+}
+
+.learn_more:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.panel_three {
+    margin: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.barrel {
+    overflow: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.barrel_2 {
+    height: auto;
+    width: 50%;
+}
+
+.stored {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(204, 0, 0);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.stored_wine {
+    text-align: center;
+    color: white;
+    background-color:  rgb(204, 0, 0);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section_3 {
+    padding: 20px;
+    width: auto;
+    background-color:  rgb(204, 0, 0);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.button {
+    margin: 30px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.button:hover {
+    color: green;
+}
