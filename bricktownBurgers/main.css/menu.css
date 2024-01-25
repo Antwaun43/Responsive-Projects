@@ -1,0 +1,75 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+/* Navbar code */
+html {
+    background-color: antiquewhite;
+}
+
+.logo { 
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+} 
+
+h1 {
+    display: inline-block;
+    color: black;
+    font-size: 3rem;
+}
+
+.opening {
+    background-color: white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    height: 100px;
+    width: auto;
+}
+.navbar {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 20px;
+}
+
+.nav, a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav:hover a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.container1 {
+    display: inline-block;
+    position: relative;
+}
+
+.container2 {
+    background-color: red;
+    display: inline-block;
+    position: flex;
+}
