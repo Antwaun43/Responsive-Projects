@@ -1,0 +1,119 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+/* Navbar cade */
+html {
+    background-image: url("/images.jpg/burgerOnBlackPlate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+}
+
+.logo { 
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+} 
+
+h1 {
+    display: inline-block;
+    color: black;
+    font-size: 3rem;
+}
+
+.opening {
+    background-color: white;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    height: 100px;
+    width: auto;
+}
+.navbar {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 20px;
+}
+
+.nav, a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav:hover a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+hr {
+    color: white;
+}
+
+.mission {
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20% 20%;
+    text-align: center;
+    /* padding: 5%; */
+}
+
+.button {
+    display: center;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    line-height: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.social {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    bottom: 200px;
+    left: 45%;
+}
+
+.sm:hover {
+    color: black;
+}
+.sm {
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
